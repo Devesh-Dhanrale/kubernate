@@ -16,9 +16,9 @@ spring:
     name: DEPARTMENT-SERVICE
   datasource:
     driver-class-name: org.postgresql.Driver 
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://imsdbsprint2.cxbxe7ypeoyt.us-east-1.rds.amazonaws.com:5432/imsdb
     username: postgres
-    password: root
+    password: postgres
   
   jpa:
     hibernate:
